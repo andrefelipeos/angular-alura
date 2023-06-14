@@ -18,6 +18,10 @@ export class ListarPensamentosComponent implements OnInit {
   constructor(private pensamentoService: PensamentoService) { }
 
   ngOnInit(): void {
+    this.carregarPensametosDaApi()
+  }
+
+  carregarPensametosDaApi() {
     this.pensamentoService
       .listar(this.paginaAtual, this.filtro, this.listarSomenteFavoritos)
       .subscribe(pensamentosDaApi => {
@@ -39,22 +43,14 @@ export class ListarPensamentosComponent implements OnInit {
   pesquisarPensamentos() {
     this.paginaAtual = 1
     this.haMaisPensamentos = true
-    this.pensamentoService
-      .listar(this.paginaAtual, this.filtro, this.listarSomenteFavoritos)
-      .subscribe(pensamentosFiltrados => {
-        this.pensamentos = pensamentosFiltrados
-      })
+    this.carregarPensametosDaApi()
   }
 
   listarFavoritos() {
     this.paginaAtual = 1
     this.haMaisPensamentos = true
     this.listarSomenteFavoritos = true
-    this.pensamentoService
-      .listar(this.paginaAtual, this.filtro, this.listarSomenteFavoritos)
-      .subscribe(pensamentosFavoritos => {
-        this.pensamentos = pensamentosFavoritos
-      })
+    this.carregarPensametosDaApi()
   }
 
 }
