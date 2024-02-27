@@ -1,0 +1,15 @@
+[submodule "buscante"]
+	path = buscante
+	url = git@github.com:andrefelipeos/buscante.git
+[submodule "memorando"]
+	path = memorando
+	url = git@github.com:andrefelipeos/memorando.git
+[submodule "angular-lifecycle"]
+	path = angular-lifecycle
+	url = git@github.com:andrefelipeos/angular-lifecycle.git
+[submodule "angular-forms"]
+	path = angular-forms
+	url = git@github.com:andrefelipeos/angular-forms.git
+[submodule "memoteca"]
+	path = memoteca
+	url = git@github.com:andrefelipeos/memoteca.git
