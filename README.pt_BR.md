@@ -1,7 +1,7 @@
 > To read the original doc, [click here](README.md).  
 
 # Formação em Angular da Alura 🅰️
-Esse repositório reúne projetos desenvolvidos como parte de um [curso extensivo de Angular na Alura](https://cursos.alura.com.br/degree/certificate/ff908da2-e6a9-4a6b-befa-25cceb08ca41?lang=pt_BR).  
+Esse repositório reúne projetos desenvolvidos como parte de um [curso extensivo de Angular na Alura](https://cursos.alura.com.br/degree/certificate/ff908da2-e6a9-4a6b-befa-25cceb08ca41?lang=pt_BR). Visite o repositório de cada projeto clicando no respectivo submódulo acima.  
 
 ## Memoteca 📑
 Uma aplicação para ser usada como um mural de pensamentos e citações. Usuários podem adicionar, editar e remover frases e textos curtos que eles tenham gostado. Eles também podem marcar alguns desses textos como favoritos.  
@@ -21,7 +21,13 @@ O Buscante permite que usuários procurem por livros na **API do Google Books**.
 
 Os dados são recuperados utilizando *obsevables*, depois transformados por *operadores* da biblioteca **RxJS** em modelos TypeScript adequados para serem utilizados em componentes do Angular.  
 
+![Captura de tela de um exemplo de busca por autoria no Buscante](/github-assets/buscante-screenshot.png)
+> Exemplo de busca por autoria no Buscante
+
 ## Memorando 📋
 O Memorando é um gerenciador de tarefas. Usuários podem criar, editar, pesquisar e apagar tarefas, assim como marcar elas como finalizadas.  
 
-O Memorando usa o **módulo de animações** do Angular para criar animações que melhoram a experiência dos usuários ao fornecer respostas visuais às suas ações e destacar o fluxo de ações da aplicação.
+O Memorando usa o **módulo de animações** do Angular para criar animações que melhoram a experiência dos usuários ao fornecer respostas visuais às suas ações e destacar o fluxo de ações da aplicação.  
+
+![Gravação de tela dos recursos e animações do Memorando](/github-assets/memorando-screencast.gif)
+> Recursos e animações do Memorando
